@@ -1,7 +1,6 @@
 ruby_online_doc
 ===============
 
-<<<<<<< HEAD
 License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -25,6 +24,3 @@ THE SOFTWARE.
 ------------------------------------------------------------------------------
 Copyright (c) 2012 Chris Zingel 
 ------------------------------------------------------------------------------
-=======
-Tutorial for creating Vim plugins using ruby 
->>>>>>> 401817a0db1a536dc5b76bc4fbd270de2218a111

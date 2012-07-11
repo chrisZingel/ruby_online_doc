@@ -37,7 +37,13 @@ command RubyOnelineDoc :call OnelineDoc()
 
 ruby << EOF
   def oneline_doc
-    print "printout a cool message to the status bar"
+    select_word= VIM::evaluate("expand('<cword>')")
+    type_of_file= VIM::evaluate("&ft")
+
+    print "The word that your cursor is on (while in normal) mode is: " + select_word
+    print "This type of file is: " + type_of_file
+    system("open http://railsapi.com/doc/rails-v2.3.8_ruby-v1.8")
+
   end
 EOF
 
