@@ -20,9 +20,9 @@ if !has("ruby")
   finish
 endif
 
-"Don't require this (but handy if you want to check that has loaded
+"Uncomment if you want some knind of message on starting of VIM
 "echohl WarningMsg
-"echo "Sucessful loading of ruby online doc (step 2) "
+"echo "Some message that appears on VIM startup (maybe something like you looking great today) "
 "echohl none
 
 let g:loaded_ruby_online_doc = "true"
